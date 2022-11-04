@@ -1,0 +1,115 @@
+/*BODY*/
+body{
+	box-shadow: 40px;
+	background-color: dimgray;
+}
+
+
+footer{
+ float: center;
+ background-color: lightsteelblue;
+ display: inline-block;
+position: relative;
+justify-content: space-between;
+padding: 5px 5px;
+align-items: center;
+display: flex;
+font-size: 30px;}
+    header{
+    background-color: lightsteelblue;
+    position: bottom;
+}
+.box-button{
+	display: inline-block;
+	text-decoration: none;
+	color: red;
+	border: 10px solid #red;
+	padding: 13px 20px;
+	font-size: 15px;
+	background: transparent;
+	position: relative;
+	cursor: pointer;
+	box-shadow: 40px;
+}
+.box-button:hover{
+	border: 10px solid #blue;
+	transition: 2s;
+}
+
+P{text-align: center;
+font-size: 40px;
+font-family: fantasy;
+color: antiquewhite}
+h{
+	font-size: 36px;
+	font-weight: bolder;
+	}
+/*CONTACT ICONS*/nav{text-align: right;
+font-size: 35px;
+display: inline-block;
+position: relative;
+justify-content: space-between;
+padding: 5px 5px;
+align-items: center;
+display: flex;
+}
+/*PICTURE'S ANIMATION*/
+#outerbox
+{
+	margin-top: 50px;
+	color: blue;
+width: 800px;
+overflow: hidden;
+}
+#sliderbox
+{
+position: relative;
+width: 3200px;
+animation-name:Motumi;
+animation-duration: 10s;
+animation-iteration-count:infinite;
+margin-left: 0px;}
+#sliderbox img{
+	float: left;
+}
+@keyframes Motumi{
+0%
+{
+left: 0px;
+}
+20%
+{
+left: 0px;	
+}
+25%
+{
+	left: -800px;
+} 
+45%
+{
+	left: -800px;
+}
+50%
+{
+	left: -1600px;
+}
+70%
+{
+	left: -1600px;
+}
+70%
+{
+	left: -1600px;
+}
+75%
+{
+	left: -2400px;
+}
+95%
+{
+	left: -2400px;
+}
+100%
+{
+	left:3200px;  
+}
